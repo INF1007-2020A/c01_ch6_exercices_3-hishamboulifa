@@ -24,7 +24,7 @@ def delete_nth_from_stack(data: Stack, position: int) -> Stack:
     # TODO: Supprimer le énième (position) élément de data et retourner la nouvelle structure de données.
    s = Stack()
 
-   for i in range(len(data) - 1):
+   for i in range(len(data) - position):
        s.put(data.get())
     
 
