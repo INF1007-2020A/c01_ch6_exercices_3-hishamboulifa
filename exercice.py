@@ -22,7 +22,9 @@ def reverse_data(data: list = None):
 
 def delete_nth_from_stack(data: Stack, position: int) -> Stack:
     # TODO: Supprimer le énième (position) élément de data et retourner la nouvelle structure de données.
-   
+   s = Stack()
+
+   for i in range
     return Stack()
 
 
