@@ -11,7 +11,7 @@ def reverse_data(data: list = None):
     # et les retourner en ordre inverse, sans utiliser de liste.
 
     if data is None:
-        data = [input('')]
+        data = [input('Entre')]
 
     reversed_data = None  # Stocker le résultat ici
 
