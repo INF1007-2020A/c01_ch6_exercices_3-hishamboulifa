@@ -16,10 +16,7 @@ def reverse_data(data: list = None):
     s = 
 
     for d in data:
-        s.put(d)reversed_data = None  # Stocker le résultat ici
-
-    return reversed_data
-
+        s.put(d)
 
 def delete_nth_from_stack(data: Stack, position: int) -> Stack:
     # TODO: Supprimer le énième (position) élément de data et retourner la nouvelle structure de données.
