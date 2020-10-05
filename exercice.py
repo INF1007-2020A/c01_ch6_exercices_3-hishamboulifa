@@ -15,7 +15,7 @@ def reverse_data(data: list = None):
 
     s = 
 
-    reversed_data = None  # Stocker le résultat ici
+    for d in data:reversed_data = None  # Stocker le résultat ici
 
     return reversed_data
 
