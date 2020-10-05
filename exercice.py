@@ -18,6 +18,7 @@ def reverse_data(data: list = None):
     for d in data:
         s.put(d)
 
+
 def delete_reversed_datak(data: Stack, position: int) -> Stack:
     # TODO: Supprimer le énième (position) élément de data et retourner la nouvelle structure de données.
     return Stack()
