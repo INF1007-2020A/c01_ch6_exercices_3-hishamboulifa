@@ -13,6 +13,8 @@ def reverse_data(data: list = None):
     if data is None:
         data = [input('Entrez une donnee') for _ in range(10)]
 
+    s = 
+
     reversed_data = None  # Stocker le résultat ici
 
     return reversed_data
