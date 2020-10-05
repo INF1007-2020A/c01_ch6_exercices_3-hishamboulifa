@@ -25,7 +25,7 @@ def delete_nth_from_stack(data: Stack, position: int) -> Stack:
    s = Stack()
 
    for i in range(len(data)):
-       
+       s.put(data.get())
     return Stack()
 
 
